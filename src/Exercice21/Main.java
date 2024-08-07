@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Entrer un entier");
         int n = sc.nextInt();
-        int s=0;
+        int s;
         for(int i=0;i<=10;i++){
             s=n*i;
             System.out.println(n+"*"+i+ "="+s);
