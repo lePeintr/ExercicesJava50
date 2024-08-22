@@ -1,0 +1,30 @@
+package Exercice34;
+
+import java.util.Scanner;
+
+/**
+ * Main.java
+ * <p>
+ * Auteur: Administrateur
+ */
+public class Main {
+    public static void main(String[] args) {
+        while(true){
+            Scanner sc = new Scanner(System.in);
+            System.out.println("entrer un entier");
+            int n = sc.nextInt();
+
+            for (int i=1;i<=n;i++){
+                for(int j=1;j<=i;j++){
+                    System.out.print(i);
+                }
+
+                System.out.println("\n");
+
+            }
+
+        }
+
+
+    }
+}
